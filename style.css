@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(gamaback.png);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top:30% ;
+  
+
+
+
+}
+.left{
+    margin-left: 6%;
+
+}
+.left h1{
+    margin-left: 6%;
+    font-size: 90px;
+    color: #fff;
+    line-height: 110px;
+    float: left;
+
+
+}
+.right{
+    float: right;
+    margin-right:6% ;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.right img{
+    width: 20%;
+    margin-left: 5%;
+    margin-top: -6%;
+}
